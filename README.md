@@ -7,7 +7,7 @@ Pour ce faire, nous avons décidé avec Jérémie, Mehdi et moi même (Julien) d
 
 ## Liste de ses dettes
 
-* Mehdi -> 50 bières
+* Mehdi -> 51 bières
 * Jérémie -> 15 bières
 * Julien -> 14 bières
 
