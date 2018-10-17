@@ -1,3 +1,5 @@
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 # Compte rendu des bières de Benji
 
 ## Pourquoi ce repository ?
@@ -7,7 +9,7 @@ Pour ce faire, nous avons décidé avec Jérémie, Mehdi et moi même (Julien) d
 
 ## Liste de ses dettes
 
-* Mehdi -> 50 bières
+* Mehdi -> 51 bières
 * Jérémie -> 15 bières
 * Julien -> 14 bières
 
