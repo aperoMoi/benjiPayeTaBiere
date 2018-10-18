@@ -10,16 +10,19 @@ $height = 60;
 $image = imagecreate($width, $height);
 
 /**
- * Background : définit la couleur d'arrière plan de notre captcha de façon aléatoire
+ *  Background : définit la couleur d'arrière plan de notre captcha de façon aléatoire
  */
-$background = imagecolorallocate($image, rand(150,255), rand(150,255), rand(150,255));
+$background = imagecolorallocate($image, rand(150,255) , rand(150,255) , rand(150,255));
 
 /**
  * Char : liste des caractères que l'on peut afficher dans notre captcha
  * char -> str_shuffle : Melange de manière aléatoire une chaine de caractère
- * length : taille de notre captcha, sachant que l'on veut partir de la fin, on doit placer le "-" pour faire un substr simple
- * captcha : on définit notre captcha en fonction de length (qui est négatif), le start part donc de la fin de notre tableau de caractere
- * $_SESSION['captcha'] = captcha : Permet d'affecter la captcha à une session pour vérifier si l'utilisateur rentre le bon captcha
+ * length : taille de notre captcha, sachant que l'on veut partir de la fin, on 
+ * doit placer le "-" pour faire un substr simple
+ * captcha : on définit notre captcha en fonction de length (qui est négatif), le 
+ * start part donc de la fin de notre tableau de caractere
+ * $_SESSION['captcha'] = captcha : Permet d'affecter la captcha à une session pour 
+ * vérifier si l'utilisateur rentre le bon captcha
  */
 $char = "abcdefghijklmnopqrstuvwxyz0123456789";
 $char = str_shuffle($char);
@@ -41,7 +44,7 @@ $fonts = glob("fonts/*.ttf");
  * fonction imagettftext, va permettre de dessiner notre caractère
  */
 $x = rand(10,15);
-for($i = 0; $i < strlen($captcha); $i++){
+for($i = 0; $i < strlen($captcha); $i++) {
     $y = rand(20, $height-20);
     $angle = rand(-30, 30);
     $size = rand(13,18);
