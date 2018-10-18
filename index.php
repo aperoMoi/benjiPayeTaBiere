@@ -1,4 +1,8 @@
 <?php
+/**
+ * Edited by mehdi 
+ *
+ */
 session_start();
 /**
  * Width : largeur de l'image
