@@ -15,4 +15,4 @@ Pour ce faire, nous avons décidé avec Jérémie, Mehdi et moi même (Julien) d
 
 ## Liste des prochains afters où il doit être présent
 
-Tout le temps à partir du moment où nous lui en proposons un !
+zelknfoizeuyhfpiuzehiufezhfiuTout le temps à partir du moment où nous lui en proposons un !
